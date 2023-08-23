@@ -39,7 +39,7 @@
                     res.data.forEach((elem) => {
                         // resultBox.innerHTML += `<img src="${elem.path}" style="width:500px">`;
                         const img = document.createElement('img');
-                        img.src = elem.path;
+                        img.src = elem.location;
                         img.style.width = '500px';
                         resultBox.appendChild(img);
                     });
